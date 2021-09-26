@@ -17,10 +17,14 @@ header{
     width: 100%;
     height: 150px;
     background-color: blanchedalmond;
-    font-size: 32px;
+    font-size: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+header>div>p{
+    border-bottom: 2px dashed grey;
+    border-top: 2px dashed grey;
 }
 main{
     width:80%;
@@ -28,6 +32,10 @@ main{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:2px solid grey;
+    border-top: none;
 }
 .project{
     position: relative;
@@ -39,8 +47,8 @@ main{
     position: absolute;
     height:80px;
     bottom: 0;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 47px;
+    border-bottom-right-radius: 47px;
     font-size: 24px;
     color: white;
 }
@@ -51,9 +59,11 @@ main{
     text-align: center;
 }
 main>div:first-child>a>div{
+    border: 2px solid grey;
     background-image: url('../img/cal.jpg');
 }
 main>div:last-child>a>div{
+    border: 2px solid grey;
     background-image: url('../img/json.jpg');
 }
 main>div>a>div{
@@ -66,4 +76,10 @@ main>div>p{
     color: rgb(0, 102, 255);
     font-size: larger;
     font-weight: bolder;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+header{
+    border: 3px solid rosybrown;
+    border-radius: 30px;
 }
