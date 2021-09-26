@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../calc/style/main.css">
+    <script src="../calc/script/myScript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <input id="valueOut" type="text" name="ketqua" value="0" readonly>
+        <section>
+            <button class="color-special " id="del" onclick="onClear(this)">AC</button>
+            <button class="color-special" id="neg" onclick="onNumberClick(this)">+/-</button>
+            <button class="color-special"id="percent" onclick="onOperationClick(this)">%</button>
+            <button class="color-operation" id="div" onclick="onOperationClick(this)">÷</button>
+            <button class="color-number" id="7" onclick="onNumberClick(this)">7</button>
+            <button class="color-number" id="8" onclick="onNumberClick(this)">8</button>
+            <button class="color-number" id="9" onclick="onNumberClick(this)">9</button>
+            <button class="color-operation" id="mul" onclick="onOperationClick(this)">×</button>
+            <button class="color-number" id="4" onclick="onNumberClick(this)">4</button>
+            <button class="color-number" id="5" onclick="onNumberClick(this)">5</button>
+            <button class="color-number" id="6" onclick="onNumberClick(this)">6</button>
+            <button class="color-operation" id="sub" onclick="onOperationClick(this)">-</button>
+            <button class="color-number" id="1" onclick="onNumberClick(this)">1</button>
+            <button class="color-number" id="2" onclick="onNumberClick(this)">2</button>
+            <button class="color-number" id="3" onclick="onNumberClick(this)">3</button>
+            <button class="color-operation" id="add" onclick="onOperationClick(this)">+</button>
+            <button class="color-number zero" id="0" onclick="onNumberClick(this)">0</button>
+            <button class="color-number" id="." onclick="onNumberClick(this)">.</button>
+            <button class="color-operation" id="result" onclick="onResult()">=</button> 
+        </section>
+    </main>
+
+</body>
+</html>

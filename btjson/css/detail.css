@@ -1,0 +1,46 @@
+body{
+    background-color: blanchedalmond;
+}
+.cmt,
+.post{
+    margin: 0 20px 20px 9%;
+    width: 85%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding:10px;
+    
+}
+.post{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 0px;
+}
+.post-title,
+.cmt-title{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+.cmt-title{
+    margin: 0;
+}
+#detailpost>p:first-child,
+#comments>p:first-child{
+    font-size: 2em;
+    margin: 10px auto;
+    width:  90%;
+}
+/* #comments>p:first-child{
+    font-size: 2em;
+} */
+#comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.container{
+    width: 90%;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: 10px auto;
+}
