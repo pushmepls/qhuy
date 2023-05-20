@@ -83,7 +83,7 @@ function printToScreen(value){
         }
         else{
             if(window.innerWidth>=768){
-                screen.style.fontSize=`200px`;
+                screen.style.fontSize=`30px`;
                 screen.value=val.toLocaleString();}
                 else{
                     screen.style.fontSize=`55px`;
